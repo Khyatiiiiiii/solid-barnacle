@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navigation-links a:hover {
+    text-decoration: underline;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.heading {
+    margin-bottom: 30px;
+}
+
+.center-service {
+    position: relative;
+    display: inline-block;
+}
+
+.option {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.option a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Add more colors as needed */
+.blue { background-color: #007bff; }
+.green { background-color: #28a745; }
+.red { background-color: #dc3545; }
+.yellow { background-color: #ffc107; }
+.purple { background-color: #6f42c1; }
+.orange { background-color: #fd7e14; }
+.cyan { background-color: #17a2b8; }
+.pink { background-color: #e83e8c; }
+.teal { background-color: #20c997; }
+
+/* Chatbot box style */
+.chatbot-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbot-box a {
+    color: #fff;
+    text-decoration: none;
+}
